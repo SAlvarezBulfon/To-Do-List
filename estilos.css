@@ -1,0 +1,80 @@
+
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* css personal */
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-size:1rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #393e41;
+    min-height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+
+
+
+/* BTN-PRIMARY MODIFICACIONES */
+
+.btn-primary{
+    background-color: #e94f37;
+    border-color: #e94f37;
+}
+
+.btn-primary:hover{
+    background-color: #a8210c;
+    border-color: #a8210c;
+
+}
+.btn-primary:focus{
+    background-color: #e94f37;
+    border-color: #e94f37;
+    outline: #e94f37;
+}
+
+
+/* card */
+.card{
+    box-shadow: 0 0.2rem 4rem #1a1c1d;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-header{
+    padding: 10rem 0;
+    background-image: url(https://images.unsplash.com/photo-1598791318878-10e76d178023?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.card-body{
+    background-color: #ead7c3;
+    border-radius: 0.5rem;
+}
+.card-body h2{
+    font-size: wrem;
+    font-weight: bold;
+    color: #252222;
+}
+.card-body h2 span{
+    color: #e94f37;
+}
+
+
+/* CARACTERÍSTICAS DE LOS ELEMENTOS AGREGADOS CON JS */
+
+.list-group-item{
+    display:flex;
+    align-items: center;
+    background-color: #fff6eb;
+   }
+.btnDelete{
+    margin-left: auto;
+}
